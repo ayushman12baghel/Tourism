@@ -1,0 +1,163 @@
+@import url(https://fonts.google.com/specimen/Dancing+Script);
+
+
+body{
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1587474260584-136574528ed5?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kaWElMjBnYXRlfGVufDB8fDB8fHww");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, sans-serif;
+    box-sizing: border-box;
+}
+.search{
+  height:30px;
+  width: 250px;
+  border-radius: 5px;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    
+}
+.logo{
+    width: 300px;
+    margin-right: 100px;
+}
+.nav{
+    padding: 30px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 20px;
+    padding: 15px;
+    border:2px solid #333;
+    border-radius: 16%;
+}
+.nav:hover{
+    background-color: #4f4343;
+}
+.nav a{
+    transition:all 0.3s ease 0s;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10%;
+    flex-direction: column;
+}
+h1{
+    
+    font-size: 70px;
+    
+    font-family:calibri;
+    color:wheat;
+    margin-bottom: 70px;
+    
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+    color:wheat
+}
+button{
+    font-size: 25px;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 15px;
+    
+    
+    
+}
+a{
+    text-decoration: none;
+    color:white
+}
+button:hover{
+    background-color: wheat;
+    color:#333;
+    cursor: pointer;
+}
+a:hover{
+    color:#333
+}
+/* a:visited{
+    background-color: #ae9f9f;
+} */
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 400px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .footer-section {
+    margin: 10px;
+  }
+
+  .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+
+  .social-icons a:hover {
+    color: #55acee; 
+  }
+
+  .submit-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .submit-input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 200px;
+  }
+
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #55acee; 
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .submit-button:hover {
+    background-color: #007bb5; 
+  }
